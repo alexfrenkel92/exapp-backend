@@ -23,7 +23,7 @@ const connectToDatabase = async () => {
     }
 }
 
-// connectToDatabase();
+connectToDatabase();
 
 module.exports = {
     conn: conn
